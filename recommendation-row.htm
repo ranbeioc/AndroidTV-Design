@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://www.google.com/design/spec-tv/system-overview/recommendation-row.html# -->
+<html class="qp-ui" data-qp-ui="{
+  &#39;Futurizr&#39;: {
+    &#39;hasTouch&#39;: &#39;touch&#39;
+  }
+}" data-qp-ui-data-id="qp:0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./recommendation-row_files/main.css" rel="stylesheet">
+    <link href="./recommendation-row_files/print.css" rel="stylesheet">
+        <link href="./recommendation-row_files/css" rel="stylesheet" type="text/css">
+    
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta name="keywords" content="">
+    <title>Recommendation Row - System overview - Android TV design guidelines</title>
+    <meta itemprop="name" content="Recommendation Row - System overview - Android TV design guidelines">
+    <meta itemprop="image" content="https://material-design.storage.googleapis.com/publish/tv_v_1/social.png">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Recommendation Row - System overview - Android TV design guidelines">
+    <meta property="og:image" content="https://material-design.storage.googleapis.com/publish/tv_v_1/social.png">
+    <meta property="og:site_name" content="Android TV design guidelines">
+    <meta property="article:section" content="Recommendation Row - System overview">
+<!--
+<PageMap>
+    <DataObject type="document">
+      <Attribute name="uid"></Attribute>
+      <Attribute name="title">Recommendation Row</Attribute>
+      <Attribute name="keywords"></Attribute>
+      <Attribute name="slug"></Attribute>
+      <Attribute name="description"></Attribute>
+      <Attribute name="section_title">System overview</Attribute>
+      <Attribute name="section_slug">system-overview</Attribute>
+    </DataObject>
+    <DataObject type="thumbnail">
+      <Attribute name="src" value="" />
+    </DataObject>
+</PageMap>
+-->
+<script async="" src="./recommendation-row_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51798601-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+
+  <body class="section-system-overview noninitial-chapter color-default qp-ui qp-ui-mask" data-qp-ui="{ &#39;Mask&#39;: {} }" data-qp-ui-data-id="qp:1">
+    <header>
+  <div class="header-wrapper">
+    <div class="header-title">      <span class="section-title">System overview</span>
+      <span class="chapter-title">Recommendation Row</span>
+        </div>
+  </div>
+
+</header>
+
+<nav>
+  <button class="hamburger-button qp-ui qp-ui-side-nav-toggle" data-qp-ui="{ &#39;SideNavToggle&#39;: {} }" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:2">Show navigation</button>
+</nav>
+
+    
+    
+    
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer" data-qp-ui="{ &#39;SideNavDrawer&#39;: {} }" data-qp-ui-data-id="qp:3">
+  <div class="side-nav-wrapper">
+    <span id="logo"><img src="./recommendation-row_files/nav_android_tv.svg" alt="Google logo"></span>
+    <nav>
+      <dl>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:6">Android TV
+                </dt>
+        <div style="overflow: hidden; "><dd>
+                    <a class="" href="introduction.htm">Introduction
+                    </a>
+                  </dd></div>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:7">Design principles
+                </dt>
+        <div style="overflow: hidden; "><dd>
+                    <a class="" href="creative-vision.htm">Creative vision
+                    </a>
+                    <a class="" href="designing-for-tv.htm">Designing for TV
+                    </a>
+                  </dd></div>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:8">System overview
+                </dt>
+        <div style="overflow: hidden; "><dd>
+                    <a class="" href="navigation.htm">Navigation
+                    </a>
+                    <a class="" href="home.htm">Home
+                    </a>
+                    <a class="nav_selected" href="recommendation-row.htm">Recommendation Row
+                    </a>
+                    <a class="" href="global-search.htm">Global Search
+                    </a>
+                  </dd></div>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:9">TV apps
+                </dt>
+        <div style="overflow: hidden;"><dd>
+                    <a class="" href="app-structure.htm">App structure
+                    </a>
+                    <a class="" href="browse-view.htm">Browse View
+                    </a>
+                    <a class="" href="detail-view.htm">Detail View
+                    </a>
+                    <a class="" href="consumption-view.htm">Consumption View
+                    </a>
+                    <a class="" href="in-app-search.htm">In-app Search
+                    </a>
+                  </dd></div>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:a">Patterns
+                </dt>
+        <div style="overflow: hidden; "><dd>
+                    <a class="" href="dialog.htm">Dialog
+                    </a>
+                    <a class="" href="wizard.htm">Wizard
+                    </a>
+                    <a class="" href="in-app-settings.htm">In-app settings
+                    </a>
+                    <a class="" href="notifications.htm">Notifications
+                    </a>
+                  </dd></div>
+                <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:b">Style
+                </dt>
+        <div style="overflow: hidden; "><dd>
+                    <a class="" href="color.htm">Color
+                    </a>
+                    <a class="" href="typography.htm">Typography
+                    </a>
+                    <a class="" href="branding.htm">Branding
+                    </a>
+                  </dd></div>
+              </dl>
+    </nav>
+
+        <div class="legal">
+      <p class="copyright">Google ©</p>
+      <a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a> &amp; <a href="http://www.google.com/intl/en/policies/terms/">Terms</a>
+    </div>
+  </div>
+</div>
+
+    <div id="grid-cont">
+      <section class="grid_outer chapter">
+  <h1 class="chapter-title">Recommendation Row
+          </h1>
+    <div class="chapter-content">
+        
+        <div class="chapter-intro">
+      <section class="moduleE1">
+    <div class="module-body">
+    <p>Recommendation Row is a high-visibility area on the Home screen where users can find fresh content. It is the easiest way for users to access content without launching an app. Recommendation Row aims to maintain a balanced mix of relevant and new content. </p><p>By promoting your app on Recommendation Row, your content has a higher chance of catching the user's attention with intriguing and relevant content.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./recommendation-row_files/android_tv_system_overview_home_recommendations.jpg">
+                    </div>
+                      </figure>
+          </div>
+  </div>
+</section>
+      
+      
+    </div>
+    
+        <nav class="chapter-toc">
+      <h1>Contents</h1>
+      <ul>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="https://www.google.com/design/spec-tv/system-overview/recommendation-row.html#recommendation-row-types-of-recommendations" data-qp-ui-data-id="qp:a">Types of recommendations
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="https://www.google.com/design/spec-tv/system-overview/recommendation-row.html#recommendation-row-card-customization" data-qp-ui-data-id="qp:b">Card customization
+                </a></li>
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="https://www.google.com/design/spec-tv/system-overview/recommendation-row.html#recommendation-row-now-playing-card" data-qp-ui-data-id="qp:c">Now Playing Card
+                </a></li>
+              </ul>
+    </nav>
+    
+    <div class="article-list">
+                        <div id="recommendation-row-types-of-recommendations" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:d">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:e">
+    Types of recommendations
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>Your app can publish three types of recommended content: <strong>c</strong><strong>o</strong><strong>n</strong><strong>tinuation</strong>, <strong>new</strong>, and <strong>related</strong>.<strong>&nbsp;</strong>When promoting content, use signals within your own app to determine what is relevant to the user based on their consumption behavior. Keep in mind the device could be shared with family or friends. Recommend age-appropriate content only.</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleC1 moduleC2">
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_continue_example.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">Continuation content</div><p>If the user is watching an episodic series, include a continuation recommendation so they can easily pick up where they left off.</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_new_content_example.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">New content</div><p>When a new first-run episode is available, recommend it if the user is all caught up with another series. (But be mindful of showing spoilers!)</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_related_example.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">Related content</div><p>Recommend content the user may like based on historic behavior.</p>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="recommendation-row-card-customization" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:f">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:g">
+    Card customization
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+              <section class="moduleB1">
+        <div class="module-body">
+      <p>You can convey branding on your recommendation card. Here are some items you can customize:</p>
+    </div>
+  </section>
+
+        </div>
+              <div>
+          <section class="moduleC1 moduleC2">
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_card_imagery.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">Card imagery</div><p>Choose imagery that describes the content best.</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_color_and_icon.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">Card color &amp; app icon</div><p>Select a <strong>card color</strong> that works with white text. For <strong>app icons</strong>&nbsp;use 16dp #EEEEEE mono colored.</p>
+        </figcaption>
+                </figure>
+            <figure class="">
+                          <div class="media">
+                          <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_title.png">
+                      </div>
+                        <figcaption>
+          <div class="caption-title">Title &amp; subtitle string</div><p>A <strong>Title</strong>&nbsp;should be targeted to the card, such as a song or movie title</p><p>A <strong>Subtitle</strong><strong>&nbsp;</strong>may indicate:</p><ul><li>A playlist</li><li>An artist’s name</li><li>Why it’s recommended (such as New Episode” or Just released)</li><li>Status (such as live, resume, now playing, or recording)</li></ul>
+        </figcaption>
+                </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <h4>Background imagery</h4><p>Background imagery is associated with a focused Recommendation Card. Using different background imagery from the card content is recommended.</p>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_background.jpg">
+                    </div>
+                      </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  <div id="recommendation-row-now-playing-card" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:h">
+  <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:i">
+    Now Playing Card
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+      <title id="title">Expand and collapse content</title>
+      <desc id="desc">An arrow that points down when collapsed and points up when expanded.</desc>
+      <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+    </svg>
+  </h2>
+    <div class="article-content">
+    <div class="module-list">
+                  <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    <p>For media apps, Now Playing Cards allow users to easily resume recently played content. Currently playing or paused content is displayed on the Home screen as the first Now Playing Card, so the user can quickly resume their last activity. </p><div class="modulettes">
+          <a class="modulette android" href="https://developer.android.com/training/tv/playback/now-playing.html" title="Now Playing Card">
+      <img class="icon callout-icon" src="./recommendation-row_files/callout_android.svg" alt="">
+      <div class="info">
+        <div class="title">Now Playing Card</div>
+        <span class="subtitle">Learn how to make a Now Playing Card</span>
+      </div>
+    </a>
+      </div>
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./recommendation-row_files/android_tv_branding_and_promoting_content_now_playing_card.png">
+                    </div>
+                      </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              <div>
+          <section class="moduleE1">
+    <div class="module-body">
+    
+  </div>
+  <div class="figure-group">
+    <div class="figure-row">
+            <figure class="">
+                          <div class="media">
+                      <img src="./recommendation-row_files/_blank.png">
+                    </div>
+                        <figcaption>
+          <p>Interstellar: © 2015 Paramount Studios. All Rights Reserved.<br>Annie: © 2015 Columbia Pictures. &nbsp;All Rights Reserved. <br>Boyhood: © 2015 Paramount Studios. All Rights Reserved.<br>The Royals: © 2015 NBCUniversal<strong>. </strong>All Rights Reserved.</p>
+        </figcaption>
+              </figure>
+          </div>
+  </div>
+</section>
+        </div>
+              </div>
+  </div>
+</div>                  </div>
+
+  </div>
+
+</section>    </div>
+
+    <footer>
+  <div class="footer-grid">
+    <div class="footer-L section-system-overview color-default">&nbsp;</div>
+    <div class="footer-grid-L section-system-overview">
+            <a class="footer-text" href="https://www.google.com/design/spec-tv/system-overview/home.html">
+        <img class="arrow-L" alt="" src="./recommendation-row_files/Arrow-left_24x24px.svg">
+        <span>Previous</span>
+        <div>
+                      Home
+                  </div>
+      </a>
+          </div>
+
+    <div class="footer-R section-system-overview color-default">&nbsp;</div>
+    <div class="footer-grid-R section-system-overview">
+            <a class="footer-text" href="https://www.google.com/design/spec-tv/system-overview/global-search.html">
+        <img class="arrow-L" alt="" src="./recommendation-row_files/Arrow-right_24x24px.svg">
+        <span>Next</span>
+        <div>
+                      Global Search
+                  </div>
+      </a>
+          </div>
+
+  </div>
+</footer>
+    <script src="./recommendation-row_files/picturefill.min.js"></script>
+    <script src="./recommendation-row_files/main.js"></script>
+    
+  
+
+<div class="qp-ui-mask-modal"></div></body></html>
